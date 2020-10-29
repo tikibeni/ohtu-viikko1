@@ -8,7 +8,7 @@ public class Varasto {
 
     // --- konstruktorit: ---
     public Varasto(double tilavuus) {  // tilavuus on annettava
-        if (tilavuus > 1.0) { // TÄSSÄ MUOKATTU ARVOSTA 0.0 -> 1.0
+        if (tilavuus > 0.0) { 
             this.tilavuus = tilavuus;
         } else // virheellinen, nollataan
         {
@@ -36,7 +36,7 @@ public class Varasto {
 
     // --- ottavat aksessorit eli getterit: ---
     public double getSaldo() {
-        return saldo;
+        return saldo + 1; // TÄSTÄ MUOKATTU
     }
 
     public double getTilavuus() {
