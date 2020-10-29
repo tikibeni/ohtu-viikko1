@@ -1,3 +1,6 @@
 TODO Week 1:
 
-- Initial tasks
+- Ohtu initial tasks
+- Tiralabra plan
+- Linis tasks
+- Fullstack chapter 4
