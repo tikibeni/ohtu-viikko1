@@ -8,7 +8,7 @@ public class Varasto {
 
     // --- konstruktorit: ---
     public Varasto(double tilavuus) {  // tilavuus on annettava
-        if (tilavuus > 0.0) {
+        if (tilavuus > 1.0) { // TÄSSÄ MUOKATTU ARVOSTA 0.0 -> 1.0
             this.tilavuus = tilavuus;
         } else // virheellinen, nollataan
         {
