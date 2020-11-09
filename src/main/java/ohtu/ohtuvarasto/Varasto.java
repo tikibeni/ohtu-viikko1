@@ -22,8 +22,7 @@ public class Varasto {
     }
 
     private void varastonTilavuus(double tilavuus) {
-        if (tilavuus > 0.0) 
-        {
+        if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
         } else {
             this.tilavuus = 0.0;
